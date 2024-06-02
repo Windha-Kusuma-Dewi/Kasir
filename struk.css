@@ -1,0 +1,95 @@
+       /* CSS Styling */
+       body {
+        font-family: Arial, sans-serif; /* Mengatur jenis font */
+        background-color: #f7f7f7; /* Warna latar belakang */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Tinggi elemen hingga 100% tinggi viewport */
+        margin: 0;
+    }
+
+    .container {
+        max-width: 400px; /* Lebar maksimum kontainer */
+        background-color: #fff; /* Warna latar belakang kontainer */
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #7b7a7a; /* Border dengan warna dan ketebalan tertentu */
+        border-radius: 10px; /* Membuat sudut kontainer menjadi melengkung */
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    }
+
+    /* CSS Styling untuk elemen tabel */
+    h1 {
+        text-align: center;
+        color: #333; /* Warna teks */
+    }
+
+    table {
+        width: 100%; /* Lebar tabel 100% dari kontainer */
+        border-collapse: collapse; /* Menggabungkan batas sel */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 8px; /* Padding sel */
+        text-align: left; /* Teks rata kiri */
+        border-bottom: 1px solid #3f3f3f; /* Garis bawah */
+    }
+
+    th {
+        background-color: #f2f2f2; /* Warna latar belakang sel header */
+        color: #333; /* Warna teks header */
+    }
+
+    .total {
+        text-align: right; /* Teks rata kanan */
+        font-weight: bold; /* Teks tebal */
+    }
+
+    /* Styling untuk tombol */
+    td button a {
+        text-decoration: none; /* Menghapus dekorasi tautan */
+        color: white; /* Warna teks */
+    }
+
+    td button {
+        background-color: #007BFF; /* Warna latar belakang tombol */
+        color: white;
+        border: none; /* Tanpa border */
+        padding: 8px 12px; /* Padding tombol */
+        border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+        cursor: pointer; /* Menjadikan kursor berubah menjadi tangan ketika diarahkan ke tombol */
+    }
+
+    td button:hover {
+        background-color: #0056b3; /* Warna latar belakang tombol saat disorot */
+    }
+
+    /* Styling untuk bagian kembali */
+    .kembali {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; /* Menyebarkan elemen secara merata di sepanjang sumbu horizontal */
+    }
+
+    .kembali button {
+        flex: 1; /* Merentangkan tombol agar memenuhi lebar yang tersedia */
+        margin: 0 5px; /* Margin kiri dan kanan */
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px; /* Padding tombol */
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px; /* Ukuran teks */
+    }
+
+    .kembali button a {
+        text-decoration: none; /* Menghapus dekorasi tautan */
+        color: white;
+    }
+
+    .kembali button:hover {
+        background-color: #0056b3; /* Warna latar belakang tombol saat disorot */
+    }
